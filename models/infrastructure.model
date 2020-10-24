@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tinkerforge:Infrastructure xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tinkerforge="http://tinkeforge.org" xmi:id="_s4EkgActEeuQtJQrJgR4Ag">
+  <devices xmi:id="_2myFgActEeuQtJQrJgR4Ag" UID="XYZ" ip_address="192.168.1.10" port="4226">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_YGJYQAcuEeuQtJQrJgR4Ag" UID="12W" poe="true"/>
+    <connectedDevices xsi:type="tinkerforge:NFCReader" xmi:id="_sBKVMAcuEeuQtJQrJgR4Ag" UID="XCZ"/>
+    <connectedDevices xsi:type="tinkerforge:OledDisplay" xmi:id="_uITA0AcuEeuQtJQrJgR4Ag"/>
+    <connectedDevices xsi:type="tinkerforge:QuadRelay" xmi:id="_utLPgAcuEeuQtJQrJgR4Ag"/>
+    <connectedDevices xsi:type="tinkerforge:Speaker" xmi:id="_vNXygAcuEeuQtJQrJgR4Ag"/>
+    <connectedDevices xsi:type="tinkerforge:ThermoScanner" xmi:id="_vpu-YAcuEeuQtJQrJgR4Ag"/>
+    <connectedDevices xsi:type="tinkerforge:LED" xmi:id="_Eo0K8AcwEeuQtJQrJgR4Ag" UID="TRF"/>
+  </devices>
+  <devices xmi:id="_8gtGQActEeuQtJQrJgR4Ag" UID="DFR">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_YqfbcAcuEeuQtJQrJgR4Ag"/>
+    <connectedDevices xsi:type="tinkerforge:NFCReader" xmi:id="_Y5XTAAcwEeuQtJQrJgR4Ag" UID="12E"/>
+    <connectedDevices xsi:type="tinkerforge:QuadRelay" xmi:id="_Y5XTAgcwEeuQtJQrJgR4Ag" UID="MNB"/>
+    <connectedDevices xsi:type="tinkerforge:Speaker" xmi:id="_Y5XTAwcwEeuQtJQrJgR4Ag" UID="123"/>
+  </devices>
+  <devices xmi:id="_89hlIActEeuQtJQrJgR4Ag" UID="RYS">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_ZFBbUAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_9hU1wActEeuQtJQrJgR4Ag" UID="UE7">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_Zf_gEAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_-SqzIActEeuQtJQrJgR4Ag" UID="8U7">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_Z-7e0AcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_IO7A4AcuEeuQtJQrJgR4Ag" UID="UYT">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_apxyoAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_IzZm8AcuEeuQtJQrJgR4Ag" UID="43E">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_bHnlMAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_I-MhsAcuEeuQtJQrJgR4Ag" UID="7UY">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_bpPEgAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_JE_tQAcuEeuQtJQrJgR4Ag" UID="POI">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_cH26MAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_JKyzQAcuEeuQtJQrJgR4Ag" UID="4ER">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_dIJ5kAcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <devices xmi:id="_JQ2_AAcuEeuQtJQrJgR4Ag" UID="VCX">
+    <connectedDevices xsi:type="tinkerforge:LANExt" xmi:id="_dkcM8AcuEeuQtJQrJgR4Ag"/>
+  </devices>
+  <tags xmi:id="_HtFs4AczEeuQtJQrJgR4Ag" id="445"/>
+  <tags xmi:id="_2rMlAAfpEeuQtJQrJgR4Ag" id="34F"/>
+</tinkerforge:Infrastructure>

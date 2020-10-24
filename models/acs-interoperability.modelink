@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="/Access-Control-Manager/model/instances/infrastructure.model" position="LEFT" />
+  <model path="/Access-Control-Manager/model/instances/acs-interoperability-example.model" position="MIDDLE" />
+  <model path="/Access-Control-Manager/model/instances/acs.model" position="RIGHT" />
+</modelink>
+

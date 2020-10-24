@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<interoperability:InteroperabilityModule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:interoperability="http://tinkeforge.org/interoperability" xmi:id="_vzWGAAcxEeuQtJQrJgR4Ag">
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_ydxr8AcxEeuQtJQrJgR4Ag">
+    <room href="acs.model#_0pmfwAcwEeuQtJQrJgR4Ag"/>
+    <brick href="infrastructure.model#_2myFgActEeuQtJQrJgR4Ag"/>
+  </links>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_Jnwp0AczEeuQtJQrJgR4Ag">
+    <room href="acs.model#_zb6koAcwEeuQtJQrJgR4Ag"/>
+    <brick href="infrastructure.model#_8gtGQActEeuQtJQrJgR4Ag"/>
+  </links>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_K518wAczEeuQtJQrJgR4Ag"/>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_LR-v8AczEeuQtJQrJgR4Ag"/>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_LobhEAczEeuQtJQrJgR4Ag"/>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_MJwFcAczEeuQtJQrJgR4Ag"/>
+  <links xsi:type="interoperability:InfrastructureLink" xmi:id="_U9Lp8AczEeuQtJQrJgR4Ag"/>
+  <links xsi:type="interoperability:AssociationLink" xmi:id="_VZSXIAczEeuQtJQrJgR4Ag">
+    <tag href="infrastructure.model#_HtFs4AczEeuQtJQrJgR4Ag"/>
+    <client href="acs.model#_Y9IjQAcxEeuQtJQrJgR4Ag"/>
+  </links>
+  <links xsi:type="interoperability:AssociationLink" xmi:id="_WI8ScAczEeuQtJQrJgR4Ag">
+    <tag href="infrastructure.model#_2rMlAAfpEeuQtJQrJgR4Ag"/>
+    <client href="acs.model#_MvIf4AcyEeuQtJQrJgR4Ag"/>
+  </links>
+</interoperability:InteroperabilityModule>

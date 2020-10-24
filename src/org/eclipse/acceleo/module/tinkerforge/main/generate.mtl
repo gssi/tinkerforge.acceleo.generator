@@ -1,0 +1,79 @@
+[comment encoding = UTF-8 /]
+[module generate('http://tinkeforge.org','http://tinkeforge.org/interoperability','http://cs.ssi.it/access-control')]
+
+
+[template public generateElement(link : InfrastructureLink)]
+[comment @main/]
+[for (aBrick : Brick | link.brick)]
+
+
+[file (link.room.name.concat('/').concat('BrickConfiguration'.concat(aBrick.UID).concat('.java')), false, 'UTF-8')]
+
+
+package org.eclipse.acceleo.module.tinkerforge.gen.[link.room.name/];
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+[for (aBricklet : Bricklet | aBrick.connectedDevices)]
+[genSelectiveImport(aBricklet)/]
+[/for]
+
+import com.tinkerforge.IPConnection;
+
+@Configuration
+public class BrickConfiguration[aBrick.UID/] {
+	
+	@Bean
+	public IPConnection ipConnection() {
+		// Create IP connection
+		return new IPConnection(); 
+	}
+
+	[for (aBricklet : Bricklet | aBrick.connectedDevices)]
+	[genSelectiveVariables(aBricklet)/]
+	[genSelectiveBeans(aBricklet)/]
+	[/for]
+
+} 
+
+[/file]
+[/for]
+[/template]
+
+[template public genSelectiveImport(aBricklet: Bricklet)]
+[if (aBricklet.oclIsTypeOf(NFCReader))]
+	import com.tinkerforge.BrickletNFC;
+[/if]
+[if (aBricklet.oclIsTypeOf(QuadRelay))]
+	import com.tinkerforge.BrickletIndustrialQuadRelayV2;
+[/if]
+[/template]
+
+[template public genSelectiveVariables(aBricklet: Bricklet)]
+private static final String [aBricklet.eClass().name/]_UID = "[aBricklet.UID/]";
+[/template]
+
+[template public genSelectiveBeans(aBricklet: Bricklet)]
+[if (aBricklet.oclIsTypeOf(NFCReader))]
+	@Autowired
+	private BrickletNFC.ReaderStateChangedListener nfcListener;
+
+	@Bean
+	public BrickletNFC brickletNFC() {
+		BrickletNFC brickletNFC = new BrickletNFC(NFCUID, ipConnection());
+
+		//Added the listener 
+		brickletNFC.addReaderStateChangedListener(nfcListener);
+
+		return brickletNFC;
+	}
+[/if]
+[if (aBricklet.oclIsTypeOf(QuadRelay))]
+	@Bean
+	public BrickletIndustrialQuadRelayV2 brickletIndustrialQuadRelayV2() {
+		return new BrickletIndustrialQuadRelayV2(RelayUID, ipConnection());
+	}
+[/if]
+[/template]

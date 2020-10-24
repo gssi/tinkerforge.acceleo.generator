@@ -1,0 +1,13 @@
+[comment encoding = UTF-8 /]
+[module generateSC('http://tinkeforge.org/behaviourweaving','http://tinkeforge.org','http://www.yakindu.org/sct/sgraph/2.0.0')]
+
+
+[template public generateElement(aBehaviourSpec : BehaviourSpec)]
+[comment @main/]
+[for (brick : Brick | aBehaviourSpec.links.brick)]
+
+[file ('StateChart'.concat(brick.UID).concat('.java'), false, 'UTF-8')]
+sss
+[/file]
+[/for]
+[/template]

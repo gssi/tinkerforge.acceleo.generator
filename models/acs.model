@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ASCII"?>
+<access-control:AccessControlSystem
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:access-control="http://cs.ssi.it/access-control"
+    xmi:id="_wsDFEAcwEeuQtJQrJgR4Ag"
+    name="FitnessCenter">
+  <rooms xmi:id="_zb6koAcwEeuQtJQrJgR4Ag"
+      name="room1">
+    <timetable
+        xmi:id="_Op1HcAcxEeuQtJQrJgR4Ag">
+      <slots
+          xmi:id="_TMCuYAcxEeuQtJQrJgR4Ag"
+          activity="_AajlUAcxEeuQtJQrJgR4Ag"/>
+    </timetable>
+  </rooms>
+  <rooms xmi:id="_z5gfkAcwEeuQtJQrJgR4Ag"
+      name="room2">
+    <timetable
+        xmi:id="_PCRcoAcxEeuQtJQrJgR4Ag"/>
+  </rooms>
+  <rooms xmi:id="_0KzD4AcwEeuQtJQrJgR4Ag"
+      name="room3">
+    <timetable
+        xmi:id="_PZpa0AcxEeuQtJQrJgR4Ag"/>
+  </rooms>
+  <rooms xmi:id="_0Sr0kAcwEeuQtJQrJgR4Ag"
+      name="room4">
+    <timetable
+        xmi:id="_QI4fYAcxEeuQtJQrJgR4Ag"/>
+  </rooms>
+  <rooms xmi:id="_0ZOhcAcwEeuQtJQrJgR4Ag"
+      name="room5">
+    <timetable
+        xmi:id="_QjG9QAcxEeuQtJQrJgR4Ag"/>
+  </rooms>
+  <rooms xmi:id="_0jOK8AcwEeuQtJQrJgR4Ag"
+      name="X">
+    <timetable
+        xmi:id="_RC4pgAcxEeuQtJQrJgR4Ag"/>
+  </rooms>
+  <rooms xmi:id="_0pmfwAcwEeuQtJQrJgR4Ag"
+      name="entrance">
+    <timetable
+        xmi:id="_ihi4wAcxEeuQtJQrJgR4Ag">
+      <slots
+          xmi:id="_8eiJwAcyEeuQtJQrJgR4Ag"
+          activity="_UT4DsAcyEeuQtJQrJgR4Ag"/>
+      <slots
+          xmi:id="_9xBsYAcyEeuQtJQrJgR4Ag"
+          weekday="TUESDAY"/>
+      <slots
+          xmi:id="_bPq7sAczEeuQtJQrJgR4Ag"
+          weekday="WEDNESDAY"/>
+      <slots
+          xmi:id="_cyyUQAczEeuQtJQrJgR4Ag"
+          weekday="THURSDAY"/>
+      <slots
+          xmi:id="_d30psAczEeuQtJQrJgR4Ag"
+          weekday="FRIDAY"/>
+      <slots
+          xmi:id="_fxQ3kAczEeuQtJQrJgR4Ag"
+          weekday="SATURDAY"/>
+    </timetable>
+  </rooms>
+  <availableActivities
+      xmi:id="_AajlUAcxEeuQtJQrJgR4Ag"
+      name="Yoga"/>
+  <availableActivities
+      xmi:id="_UT4DsAcyEeuQtJQrJgR4Ag"
+      name="Stretching"/>
+  <availableSubscriptions
+      xmi:id="_CRUSoAcxEeuQtJQrJgR4Ag"
+      name="MONTLY"/>
+  <availableSubscriptions
+      xmi:id="_Z0P8AAcyEeuQtJQrJgR4Ag"
+      name="YEARLY"/>
+  <clients xmi:id="_Y9IjQAcxEeuQtJQrJgR4Ag"
+      _id="124"
+      person="_EN_asAcxEeuQtJQrJgR4Ag">
+    <subscriptions
+        xmi:id="_fgPD4AcxEeuQtJQrJgR4Ag"
+        start_date="2020-03-19T00:00:00.000+0100"
+        end_date="2020-12-20T00:00:00.000+0100"
+        activity="_AajlUAcxEeuQtJQrJgR4Ag"
+        subscription="_CRUSoAcxEeuQtJQrJgR4Ag"/>
+  </clients>
+  <clients xmi:id="_MvIf4AcyEeuQtJQrJgR4Ag"
+      _id="100"
+      person="_F1rKMAcxEeuQtJQrJgR4Ag">
+    <subscriptions
+        xmi:id="_Sk-48AcyEeuQtJQrJgR4Ag"
+        activity="_AajlUAcxEeuQtJQrJgR4Ag"
+        subscription="_Z0P8AAcyEeuQtJQrJgR4Ag"/>
+  </clients>
+  <persons xmi:id="_EN_asAcxEeuQtJQrJgR4Ag"
+      name="Mario Rossi"/>
+  <persons xmi:id="_F1rKMAcxEeuQtJQrJgR4Ag"
+      name="John Moosman"/>
+  <persons xmi:id="_PFLxQAcyEeuQtJQrJgR4Ag"
+      name="Amleto Di Salle"/>
+  <persons xmi:id="_fH3xwAcyEeuQtJQrJgR4Ag"
+      name="Ludovico Iovino"/>
+  <persons xmi:id="_gveowAcyEeuQtJQrJgR4Ag"
+      name="M.T. Rossi"/>
+  <persons xmi:id="_jARmsAcyEeuQtJQrJgR4Ag"
+      name="Martina De Sanctis"/>
+</access-control:AccessControlSystem>
